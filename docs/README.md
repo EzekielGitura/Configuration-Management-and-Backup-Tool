@@ -1,6 +1,6 @@
-# Networking Tool
+#Configuration Management and Backup Tool
 
-Networking Tool is a fun and powerful configuration management and backup tool for network devices! 🌐✨
+This tool is a fun and powerful configuration management and backup tool for network devices! 🌐✨
 
 ## Table of Contents
 - [Features](#features)
@@ -21,7 +21,7 @@ See the [installation guide](installation.md) for instructions on how to install
 See the [usage guide](usage.md) for instructions on how to use the tool.
 
 ## Contributing
-We love contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your help is greatly appreciated. Here's how you can contribute:
+I love contributions from the community! Whether you're fixing bugs, adding new features, or improving documentation, your help is greatly appreciated. Here's how you can contribute:
 
 1. **Fork the Repository**: Click the "Fork" button at the top of the repository on GitHub.
 2. **Clone Your Fork**: Clone your forked repository to your local machine.

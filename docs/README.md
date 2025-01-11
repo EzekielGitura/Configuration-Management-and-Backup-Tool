@@ -1,6 +1,6 @@
 # Configuration Management and Backup Tool
 
-This tool is a fun and powerful configuration management and backup tool for network devices! 🌐✨
+This tool is a configuartion management and backup tool for network devices! 🌐✨
 
 ## Table of Contents
 - [Features](#features)

@@ -1,0 +1,19 @@
+# Configuration for SLSA Go Releaser
+version: 1
+go:
+  module: github.com/EzekielGitura/config-backup-tool
+  build:
+    main: .  # If your main.go is in the root folder, keep this as "."
+    output: config-backup-tool
+    flags:
+      - -trimpath  # Removes absolute paths to improve security
+      - -ldflags=-s -w  # Strips debug symbols to reduce size
+    goos:
+      - linux
+      - windows
+    goarch:
+      - amd64
+      - arm64
+  provenance:
+    enabled: true  # Enables provenance signing
+    signing_key: "github"  # Uses GitHub OIDC to sign artifacts
